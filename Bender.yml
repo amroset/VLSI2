@@ -1,0 +1,8 @@
+#VLSI2: Andrea Rosetti and Lorenzo Salvatori
+
+package:
+  name: croc_soc
+
+dependencies:
+  register_interface:   { git: "https://github.com/pulp-platform/register_interface.git",   version: 0.4.1  }
+  idma :                { git: "https://github.com/pulp-platform/idma.git",                 rev: "__deploy__d15cf7e__neopxdma-tbenz" }

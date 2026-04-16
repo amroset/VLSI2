@@ -1,0 +1,76 @@
+Startpoint: _38684_ (rising edge-triggered flip-flop clocked by clk_sys)
+Endpoint: i_croc_soc.i_croc.gen_sram_bank[0].i_sram.gen_512x32xBx1.i_cut
+          (rising edge-triggered flip-flop clocked by clk_sys)
+Path Group: clk_sys
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_sys (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _38684_/CK (DFFRQX3)
+   2.26    2.26 ^ _38684_/Q (DFFRQX3)
+   0.45    2.71 v _18890_/Y (NOR2X1)
+   0.24    2.95 v _18891_/Y (BUFX3)
+   0.19    3.14 ^ _20891_/Y (AOI221X1)
+   0.10    3.24 v _20892_/Y (NAND2X1)
+   0.18    3.41 ^ _20902_/Y (AOI221X1)
+   0.11    3.53 v _20919_/Y (AOI211X1)
+   0.18    3.70 v _20920_/Y (AO21X2)
+   0.38    4.08 ^ _20921_/Y (AOI221X1)
+   0.28    4.36 ^ _20922_/Y (OR2X2)
+   0.11    4.47 v _20923_/Y (OAI21X1)
+   0.18    4.66 ^ _20924_/Y (MIN3X1)
+   0.13    4.78 v _20927_/Y (OAOI211X1)
+   0.23    5.02 ^ _20990_/Y (OAOI211X1)
+   0.20    5.21 v _20993_/Y (OAI211X1)
+   0.21    5.42 ^ _20995_/Y (AOI31X1)
+   0.17    5.59 v _20998_/Y (AOI211X1)
+   0.24    5.83 ^ _21061_/Y (OAOI211X1)
+   0.20    6.03 v _21065_/Y (OAI211X1)
+   0.22    6.24 v _21067_/Y (AO31X2)
+   0.10    6.35 ^ _21070_/Y (AOAI211X1)
+   0.22    6.56 v _21135_/Y (AOAI211X1)
+   0.25    6.82 v _21139_/Y (AO211X2)
+   0.19    7.01 v _21141_/Y (AO31X2)
+   0.12    7.13 ^ _21145_/Y (AOAI211X1)
+   0.23    7.35 v _21209_/Y (AOAI211X1)
+   0.20    7.56 ^ _21212_/Y (AOI211X1)
+   0.17    7.73 v _21214_/Y (OAI31X1)
+   0.19    7.92 ^ _21217_/Y (AOAI211X1)
+   0.27    8.19 v _21219_/Y (AOI31X1)
+   0.28    8.47 ^ _21223_/Y (AOI211X1)
+   0.17    8.64 ^ _21287_/Y (OR3X2)
+   0.08    8.73 v _21293_/Y (AOI21X1)
+   0.29    9.02 ^ _21616_/Y (OAOI211X1)
+   0.26    9.28 v _21651_/Y (OAI211X1)
+   0.29    9.57 ^ _21807_/Y (NOR3X1)
+   0.18    9.75 v _21825_/Y (AOAI211X1)
+   0.19    9.94 ^ _21833_/Y (AOI211X1)
+   0.19   10.13 ^ _21835_/Y (OA21X2)
+   0.14   10.27 v _21836_/Y (NAND3X1)
+   0.26   10.53 ^ _21842_/Y (OAI31X1)
+   0.15   10.67 ^ _21898_/Y (NAND2BX1)
+   0.11   10.78 v _21899_/Y (NAND2X1)
+   0.08   10.86 ^ _21933_/Y (NAND2X1)
+   0.10   10.96 v _21934_/Y (NAND2X1)
+   0.30   11.26 ^ _21935_/Y (NOR3X1)
+   0.22   11.48 ^ _21947_/Y (BUFX3)
+   0.12   11.61 v _21979_/Y (AOI221X1)
+   0.38   11.99 ^ _21981_/Y (NOR2X1)
+   0.00   11.99 ^ i_croc_soc.i_croc.gen_sram_bank[0].i_sram.gen_512x32xBx1.i_cut/A_BM[17] (RM_IHPSG13_1P_256x64_c2_bm_bist)
+          11.99   data arrival time
+
+  20.00   20.00   clock clk_sys (rise edge)
+   0.00   20.00   clock network delay (ideal)
+   0.00   20.00   clock reconvergence pessimism
+          20.00 ^ i_croc_soc.i_croc.gen_sram_bank[0].i_sram.gen_512x32xBx1.i_cut/A_CLK (RM_IHPSG13_1P_256x64_c2_bm_bist)
+  -3.26   16.74   library setup time
+          16.74   data required time
+---------------------------------------------------------
+          16.74   data required time
+         -11.99   data arrival time
+---------------------------------------------------------
+           4.76   slack (MET)
+
+
